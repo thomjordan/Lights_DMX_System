@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 82.0, 55.0, 1511.0, 1079.0 ],
+		"rect" : [ 41.0, 49.0, 1845.0, 1084.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,35 @@
 		"tags" : "",
 		"globalpatchername" : "midiLightsMain[1]",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-34",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 51.25, 658.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 48.0,
+					"frgb" : 0.0,
+					"id" : "obj-31",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 606.935913, 253.562744, 446.0, 167.0 ],
+					"text" : "THIS IS THE NEW VERSION FROM GITHUB - OCT.20th"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -78,7 +107,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 780.0, 405.0, 89.0, 20.0 ],
+					"patching_rect" : [ 1844.541992, 1127.121826, 89.0, 20.0 ],
 					"text" : "print FROM LJ"
 				}
 
@@ -93,7 +122,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.0, 375.0, 50.0, 31.0 ],
+					"patching_rect" : [ 1881.856079, 1194.648804, 50.0, 31.0 ],
 					"text" : "169 121"
 				}
 
@@ -106,7 +135,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 990.0, 435.0, 77.0, 20.0 ],
+					"patching_rect" : [ 2200.492188, 1205.648804, 77.0, 20.0 ],
 					"text" : "print LOCAL"
 				}
 
@@ -135,7 +164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 885.0, 360.0, 50.0, 18.0 ],
+					"patching_rect" : [ 2115.556152, 1211.121826, 50.0, 18.0 ],
 					"text" : "127 0"
 				}
 
@@ -151,20 +180,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 720.599976, 671.369995, 50.0, 18.0 ],
 					"text" : "0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"frgb" : 0.0,
-					"id" : "obj-52",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 825.0, 990.0, 390.0, 27.0 ],
-					"text" : "make note on how to write and clear presets"
 				}
 
 			}
@@ -199,7 +214,7 @@
 					"name" : "bank_of_12_LED_Par_fixtures.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 851.535522, 1455.822266, 143.14682 ],
+					"patching_rect" : [ 41.442017, 850.214844, 1450.498291, 133.829819 ],
 					"varname" : "bank_of_12_LED_Par_fixtures"
 				}
 
@@ -261,7 +276,7 @@
 					"name" : "DMX_global_interface.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 1124.547119, 633.476318, 102.460556 ]
+					"patching_rect" : [ 41.442017, 1138.041992, 633.476318, 102.460556 ]
 				}
 
 			}
@@ -1114,7 +1129,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1905.876831, 1139.627441, 79.0, 20.0 ],
+					"patching_rect" : [ 2085.561768, 1432.447388, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2021,7 +2036,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1898.066772, 1110.39978, 232.0, 20.0 ],
+					"patching_rect" : [ 2077.751709, 1403.219727, 232.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2203,20 +2218,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-238",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2059.541992, 953.983948, 83.0, 18.0 ],
-					"text" : "255 255 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"embed" : 1,
 					"id" : "obj-97",
 					"maxclass" : "bpatcher",
@@ -2232,7 +2233,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 109.0, 67.0, 279.0, 47.0 ],
+						"rect" : [ 74.0, 75.0, 338.0, 57.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -6033,7 +6034,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 173.0, 80.0, 110.0, 20.0 ],
+										"rect" : [ 153.0, 91.0, 133.0, 25.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -8613,7 +8614,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 109.0, 132.0, 279.0, 372.0 ],
+						"rect" : [ 74.0, 154.0, 338.0, 449.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -9401,7 +9402,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1656.0, 269.0, 274.0, 78.0 ],
+						"rect" : [ 1946.0, 319.0, 332.0, 94.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -10563,7 +10564,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1656.0, 214.0, 112.0, 41.0 ],
+						"rect" : [ 1946.0, 253.0, 136.0, 50.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -10737,7 +10738,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1657.0, 232.0, 106.0, 20.0 ],
+										"rect" : [ 1948.0, 275.0, 128.0, 25.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -13115,7 +13116,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 106.0, 888.0, 521.0, 75.0 ],
+						"rect" : [ 82.0, 1082.0, 630.0, 90.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -17303,7 +17304,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 30.0, 1020.0, 630.0, 90.0 ]
+					"patching_rect" : [ 41.442017, 1033.494873, 630.0, 90.0 ]
 				}
 
 			}
@@ -17385,7 +17386,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 870.0, 210.0, 121.0, 20.0 ],
+					"patching_rect" : [ 2108.541992, 1091.121826, 121.0, 20.0 ],
 					"text" : "r merger_dmxpersist"
 				}
 
@@ -17399,7 +17400,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 705.0, 209.999985, 139.0, 20.0 ],
+					"patching_rect" : [ 1943.541992, 1091.121826, 139.0, 20.0 ],
 					"text" : "r receive_from_DMX_IN"
 				}
 
@@ -17441,7 +17442,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1005.0, 239.999985, 34.0, 18.0 ],
+					"patching_rect" : [ 2243.541992, 1121.121826, 34.0, 18.0 ],
 					"text" : "1 16"
 				}
 
@@ -17455,7 +17456,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 961.949951, 239.999985, 41.0, 18.0 ],
+					"patching_rect" : [ 2200.492188, 1121.121826, 41.0, 18.0 ],
 					"text" : "1 512"
 				}
 
@@ -17468,8 +17469,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
-					"outlettype" : [ "list" ],
-					"patching_rect" : [ 705.0, 270.0, 315.0, 20.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1943.541992, 1151.121826, 315.0, 20.0 ],
 					"text" : "dmxpersist"
 				}
 
@@ -17483,7 +17484,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 763.849976, 296.889954, 55.0, 20.0 ],
+					"patching_rect" : [ 2002.391968, 1178.011841, 55.0, 20.0 ],
 					"text" : "blackout"
 				}
 
@@ -17524,7 +17525,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 705.0, 330.0, 128.0, 20.0 ],
+					"patching_rect" : [ 1943.541992, 1211.121826, 128.0, 20.0 ],
 					"text" : "s send_to_DMX_OUT"
 				}
 
@@ -17538,7 +17539,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 729.349976, 296.889954, 32.5, 18.0 ],
+					"patching_rect" : [ 1967.891968, 1178.011841, 32.5, 18.0 ],
 					"text" : "0 0"
 				}
 
@@ -19868,7 +19869,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1251.0, 191.0, 111.0, 38.0 ],
+						"rect" : [ 1456.0, 225.0, 134.0, 47.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -20089,7 +20090,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1124.0, 191.0, 112.0, 38.0 ],
+						"rect" : [ 1303.0, 225.0, 134.0, 47.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -20309,7 +20310,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1251.0, 363.0, 111.0, 38.0 ],
+						"rect" : [ 1456.0, 433.0, 134.0, 47.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -20529,7 +20530,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1124.0, 363.0, 112.0, 38.0 ],
+						"rect" : [ 1303.0, 433.0, 134.0, 47.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -21210,7 +21211,7 @@
 					"destination" : [ "obj-37", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 361.404938, 561.442017, 1479.322266, 561.442017 ],
+					"midpoints" : [ 361.404938, 561.442017, 1482.440308, 561.442017 ],
 					"source" : [ "obj-95", 3 ]
 				}
 
@@ -21220,7 +21221,7 @@
 					"destination" : [ "obj-37", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 255.103287, 574.326111, 1000.381531, 574.326111 ],
+					"midpoints" : [ 255.103287, 574.326111, 1005.274231, 574.326111 ],
 					"source" : [ "obj-95", 2 ]
 				}
 
@@ -21230,7 +21231,7 @@
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 148.801651, 559.831543, 24.442039, 559.831543, 24.442039, 837.0, 42.5, 837.0 ],
+					"midpoints" : [ 148.801651, 559.831543, 24.442039, 559.831543, 24.442039, 837.0, 50.942017, 837.0 ],
 					"source" : [ "obj-95", 1 ]
 				}
 
@@ -21311,10 +21312,6 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "dmxpersist.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "dmxusbpro.mxo",
