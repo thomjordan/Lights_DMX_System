@@ -3,45 +3,40 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>12F45</string>
-	<key>C74ObjectProperties</key>
-	<dict>
-		<key>c74factoryexternal</key>
-		<string>yes</string>
-	</dict>
+	<string>13F34</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>js</string>
+	<string>dmxpersist</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.cycling74.js</string>
+	<string>com.cycling74.dmxpersist</string>
 	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
+	<string>6.1.4</string>
 	<key>CFBundleLongVersionString</key>
-	<string>js 6.1.6 (build 307fb20), Copyright 2012 Cycling '74</string>
+	<string>dmxpersist 6.1.4, Copyright 2013 Cycling '74</string>
 	<key>CFBundlePackageType</key>
 	<string>iLaX</string>
 	<key>CFBundleShortVersionString</key>
-	<string>6.1.6 (307fb20)</string>
+	<string>6.1.4</string>
 	<key>CFBundleSignature</key>
-	<string>????</string>
+	<string>max2</string>
 	<key>CFBundleVersion</key>
-	<string>6.1.6</string>
+	<string>6.1.4</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>DTCompiler</key>
-	<string>com.apple.compilers.llvmgcc42</string>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>4H1003</string>
+	<string>6A1042b</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>10M2518</string>
+	<string>13F26</string>
 	<key>DTSDKName</key>
-	<string>macosx10.6</string>
+	<string>macosx10.9</string>
 	<key>DTXcode</key>
-	<string>0462</string>
+	<string>0610</string>
 	<key>DTXcodeBuild</key>
-	<string>4H1003</string>
+	<string>6A1042b</string>
 </dict>
 </plist>
